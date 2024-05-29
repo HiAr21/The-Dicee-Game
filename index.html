@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dicee Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Refresh mee</h1>
+    <div class="buttons">
+        <button type="button" class="btn" onclick="onClickBtn()"> Refresh</button>
+        <button type="button" class="btn" onclick="location.reload()"> Reset</button>
+    </div>
+    <main>
+        <div class="player">
+            <p>Player 1</p>
+            <img src="./images/dice6.png" alt="">
+        </div>
+        <div class="player">
+            <p>Player 2</p>
+            <img src="./images/dice6.png" alt="">
+        </div>
+    </main>
+    <div class="score">
+        <div class="playerScore">
+            <p class="borbot">Player 1</p>
+            <div class="scorelist1"></div>
+        </div>
+        <p class="scorehead borbot">SCORE</p>
+        <div class="playerScore">
+            <p class="borbot">Player 2</p>
+            <div class="scorelist2"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
